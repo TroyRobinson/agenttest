@@ -1,0 +1,63 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.timer-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.timer-component .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.timer-component .timer {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.timer-component.finished {
+    color: grey;
+    background-color: #ddd;
+}
+
+#play-button, #pause-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pause-button {
+    background-color: #f44336;
+    color: white;
+}
+```
